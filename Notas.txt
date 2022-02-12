@@ -1,0 +1,11 @@
+Ejecucion del Webpack:
+
+Antes de ejecutar comandos asegurarse que la terminal se encuentre en el directorio actual del proyecto: 
+C:\Users\carlo\Desktop\Javascript\07. App - To-Do
+
+1. Ejecutar el comando "npm install" para instalar los modulos de Node
+2. Ejecutar el comando "npm run build" para que cree la carpeta dist
+   con los archivos index.html, js y css optimizados
+   para pasar a produccion.
+3. Ejecutar el comando "npm start" para que abra la aplicacion
+   en el navegador
