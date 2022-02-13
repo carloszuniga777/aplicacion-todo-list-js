@@ -9,3 +9,48 @@ C:\Users\carlo\Desktop\Javascript\07. App - To-Do
    para pasar a produccion.
 3. Ejecutar el comando "npm start" para que abra la aplicacion
    en el navegador
+
+Nota: Para reutilizar el webpack no borrar la imagen del asset, da error. 
+Es decir, debe ir una imagen x obligatorio
+---------------------------------------------------------------
+Pasos a realizar al finalizar el proyecto 
+---------------------------------------------------------------
+
+Despliege a GitHub
+
+1. git init
+2. git add .					   //Toma una foto de todos los archivos del proyecto que sirve para recuperarlas en un futuro					
+3. git commit -m "Primer Commit"                   //Guarda en Git todos los cambios del proyecto
+
+
+Generando el archivo dist, que es el archivo de javascript, hmtl, css optimizado que se va a desplegar en produccion:
+
+4. npm run build
+5. En caso de haber un archivo docs borrarlo
+6. renombrar el archivo 'dist' por 'docs' ---> Archivo que se utilizara para desplegarlo a github
+
+Volver a guardar los cambios en git
+
+7. git add .
+8. git commit -m "Primer Commit"  
+
+Enlazar con el repositorio previamente creado en GITHUB, comandos dados por el repositorio:
+
+…or push an existing repository from the command line
+9.  git remote add origin https://github.com/carloszuniga777/aplicacion-todo-list-js.git
+10. git branch -M main
+11. git push -u origin main
+
+------------------------------------------------------------------------------------
+
+Para subirlo a GitHUB page:
+
+> Settings
+> Git Hube Pages > Pages settings now has its own dedicated tab! Check it out here!
+> Source
+    seleccionar:		
+    		>main
+    		>/docs
+>Save
+
+Esperar 5 minutos hasta que la pagina este publicada 
